@@ -1,8 +1,8 @@
-<img src="./notebooks/img/header.png" alt="SWIM2018Course" style="width:50;height:20">
+<img src="./notebook/img/header.png" alt="SWIM2018Course" style="width:50;height:20">
 
 # SWIM2018 Pre-Conference Short Course GitHub Repository
 
-This is the class GitHub repository for the pre-conference workshop taught at the [2017 SWIM](https://swim2018.syskonf.pl/).
+This is the class GitHub repository for the pre-conference workshop taught at the [2018 SWIM](https://swim2018.syskonf.pl/).
 
 Pre-Conference Workshop - Modeling Groundwater Flow in Coastal Zones
 June 14 – 16, 2018, Gdańsk, Poland.
