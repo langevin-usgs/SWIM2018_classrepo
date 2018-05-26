@@ -62,3 +62,15 @@ Optional exercises:
 * Exam Statistics
 * Introduction to Bitwise Operators
 
+## Folder Structure
+The course information is contained in a folder called swim2018shortcourse.  This folder is organized as follows:
+* installation
+* Miniconda3
+* software
+* SWIM2018_classrepo.git
+  * bin
+  * doc
+  * installation
+  * notebook
+  * presentation
+  
