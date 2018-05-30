@@ -27,10 +27,6 @@ rem verify the miniconda install
 %mc3%\python -V
 
 
-rem install python packages
-%mc3%\python install_packages.py
-
-
 rem pause so screen will not go away
 pause
 
