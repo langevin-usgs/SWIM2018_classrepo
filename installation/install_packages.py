@@ -31,7 +31,6 @@ def run_and_print(cmds):
     for cmd in cmds:
         print(' {}'.format(cmd))
         cmd_list = cmd.split()
-        print(cmd_list)
         p = Popen(cmd_list, stdout=PIPE, stderr=STDOUT)
         while True:
             line = p.stdout.readline()

@@ -13,6 +13,16 @@ if os.path.exists(dpth):
     shutil.rmtree(dpth)
 os.makedirs(dpth)
 
+
+def header():
+    #print a header
+    print(1*'\n')
+    print(72*'-')
+    print('SWIM2018: Pre-Conference Short Course')
+    print('Checking your python distribution and installed modules.')
+    return    
+
+
 def printmsg(msg):
     print(msg)
     return
@@ -34,6 +44,7 @@ def test_anaconda():
     printmsg(msg)
     sys_version = sys.version
     print('  Your python version: ', sys.version)
+    print('  Your platform is: ', sys.platform)
     if 'anaconda' not in sys_version.lower() and \
     'conda-forge' not in sys_version.lower() and \
     'miniconda' not in sys_version.lower():
@@ -70,6 +81,9 @@ def test_matplotlib():
 
 if __name__ == "__main__":
     
+    # write header
+    header()
+    
     # test that this is a version of Anaconda
     test_anaconda()
     
@@ -80,5 +94,7 @@ if __name__ == "__main__":
     # evaluate matplotlib
     test_matplotlib()
     
+    print('Done checking...')
+    print(72*'-')
         
     
