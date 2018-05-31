@@ -14,7 +14,7 @@ if exist %mc3% (
 rem install Miniconda
 echo Installing Miniconda to %mc3%
 cd ..\software
-Miniconda3-latest-Windows-x86_64.exe /InstallationType=JustMe /RegisterPython=0 /AddToPath=0 /S /D=%mc3%
+Miniconda3-latest-Windows-x86_64.exe /InstallationType=JustMe /RegisterPython=0 /AddToPath=0 /NoRegistry=1 /S /D=%mc3%
 cd ..\installation
 rem start /wait "" /D ..\software Miniconda3-latest-Windows-x86_64.exe /InstallationType=JustMe /RegisterPython=0 /AddToPath=0 /S /D=%cd%\..\Miniconda3
 if not exist %mc3% (
