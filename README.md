@@ -59,7 +59,8 @@ The Code Academy tutorial includes a variety of topics, but we recommend that st
 
 
 ## Repository Folder Structure
-The course information is contained in a folder called swim2018shortcourse.  This folder is organized as follows:
+The course information is contained in a folder called swim2018shortcourse.  This swim2018shortcourse folder is organized as follows.  This repository (SWIM2018_classrepo.git) will be a folder under the swim2018shortcourse folder.
+
 * installation
 * Miniconda3
 * software
@@ -69,4 +70,5 @@ The course information is contained in a folder called swim2018shortcourse.  Thi
   * installation
   * notebook
   * presentation
+* working
   
