@@ -33,11 +33,17 @@ The classroom will have wireless Internet.  Those requiring access to the specif
 Many of the beginning Python concepts will be taught using the Jupyter Notebook, which runs Python from a web browser.  We will also be running Python scripts using the command line and several other approaches.  
 
 ## Python Tutorial
-For those with little or no Python experience, we request that you complete the online tutorial at Code Academy:
+
+For those with little or no Python experience, we request that you complete a couple of online tutorials.  The first tutorial was developed by Mark Bakker, an instructor for this class.  The tutorial is available at:
  
-    http://www.codecademy.com/en/tracks/python
- 
-Suggested exercises:
+http://mbakker7.github.io/exploratory_computing_with_python/
+
+The second tutorial is available from Code Academy:
+
+http://www.codecademy.com/en/tracks/python
+
+The Code Academy tutorial includes a variety of topics, but we recommend that students take the following:
+
 * Python syntax
 * Strings & Console Output
 * Date and Time
@@ -50,19 +56,9 @@ Suggested exercises:
 * Introduction to Classes
 * Classes
 * File Input/Output
- 
-Optional exercises:
-* Tip Calculator
-* PygLatin
-* Taking a Vacation
-* A Day at the Supermarket
-* Student Becomes the Teacher
-* Battleship
-* Practice Makes Perfect
-* Exam Statistics
-* Introduction to Bitwise Operators
 
-## Folder Structure
+
+## Repository Folder Structure
 The course information is contained in a folder called swim2018shortcourse.  This folder is organized as follows:
 * installation
 * Miniconda3
