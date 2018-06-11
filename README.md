@@ -17,7 +17,40 @@ Topics will include:
 * MODFLOW SWI package
 * SEAWAT
 
+## Agenda
 [Course Program](https://swim2018.syskonf.pl/conf-data/SWIM2018/files/SWIM%20Short%20Course%20-%20draft%20program.pdf)
+
+The revised agenda is as follows:
+
+### Day 1
+* Demonstration -- Introduction to Python and Jupyter Notebooks
+* Notebook -- Hand calculations of head and pressure (exHandCalculations_A)
+* Presentation -- Analytical solutions and more
+* Notebook -- Interface flow toward the coast (exAnalytic_A)
+* Notebook -- More interface flow toward the coast (exAnalytic_B)
+* Notebook -- A well near the coast (exAnalytic_C)
+
+### Day 2
+* Demonstration -- flopy
+* Presentation -- Short Introduction to the SWI Package for MODFLOW
+* Notebook -- SWI equivalent to analytic example B
+* Notebook Exercise -- SWI equivalent to analytic example C (Strack Solution) or A (island)
+* Presentation -- Intro to the saltwater intrusion class problem
+* Notebook -- SWI equivalent to SEAWAT exB
+
+### Day 3
+* Presentation -- SEAWAT concepts
+* Presentation -- Overview of Henry Problem
+* Notebook -- Henry Problem (exSEAWAT_A)
+* Notebook -- Design, run, and calibrate 2D model (exSEAWAT_B)
+* Notebook -- Design and run 3D model (exSEAWAT_C)
+* Discussion and wrap up
+
+### Optional
+* Notebook -- Hand calculations of head and pressure (exHandCalculations_B)
+* Demonstration -- Henry analysis (using henry as a function)
+* Notebook -- Solute and heat transport (exSEAWAT_D)
+* Presentation -- Real world applications of seawater intrusion problems
 
 
 ## Laptop Requirement
